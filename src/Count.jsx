@@ -29,7 +29,7 @@ export default function TicketDashboard() {
         t.id === ticket.id ? updatedTicket : t
       );
       setTickets(updatedTickets);
-       toast.success("In-Process")
+       toast.success("In-Progress")
     }
   };
 
